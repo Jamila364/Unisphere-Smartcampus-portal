@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101b3d"><title>UniSphere | Smart Campus Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <main class="login-shell">
+    <section class="login-showcase">
+      <div class="brand brand-light"><span class="brand-mark">C</span><span>unisphere<span class="brand-dot">.</span></span></div>
+      <div class="showcase-copy"><span class="eyebrow"><span class="eyebrow-dot"></span> YOUR CAMPUS, CONNECTED</span><h1>Make every<br>day on campus<br><span>count.</span></h1><p>One smart place for your classes, courses, announcements and academic life.</p></div>
+      <div class="showcase-bottom"><div class="avatar-stack"><span>AK</span><span>MA</span><span>SR</span><span>+</span></div><div><strong>A better campus experience</strong><small>Everything important, in one place.</small></div></div>
+      <div class="decor decor-one"></div><div class="decor decor-two"></div>
+    </section>
+    <section class="login-panel">
+      <div class="mobile-brand brand"><span class="brand-mark">C</span><span>unisphere<span class="brand-dot">.</span></span></div>
+      <div class="login-card">
+        <div class="login-heading"><span class="small-label">WELCOME TO UNISPHERE</span><h2>Sign in to your portal</h2><p>Choose your account type to continue.</p></div>
+        <div class="role-switch" role="group" aria-label="Choose portal role"><button type="button" class="role-option active" data-role="student"><span class="role-icon">♙</span><span><strong>Student</strong><small>View your academics</small></span><span class="role-check">✓</span></button><button type="button" class="role-option" data-role="admin"><span class="role-icon">▦</span><span><strong>Administrator</strong><small>Manage campus data</small></span><span class="role-check">✓</span></button></div>
+        <form id="loginForm" class="login-form" novalidate><label for="email">University email</label><div class="field-wrap"><span class="field-icon">✉</span><input id="email" name="email" type="email" placeholder="you@university.edu" autocomplete="email" required></div><label for="password">Password</label><div class="field-wrap"><span class="field-icon">♧</span><input id="password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required><button class="password-toggle" type="button" id="togglePassword" aria-label="Show password">Show</button></div><p class="field-error" id="loginError" role="alert"></p><button class="btn btn-primary btn-full" type="submit">Continue to portal <span>↗</span></button></form>
+        <div class="demo-note"><span class="demo-lock">i</span><div><strong>Prototype access</strong><p>For this front-end demo, enter any valid email and a password of 4+ characters. The role you choose opens the matching portal.</p></div></div>
+        <p class="login-footer">Designed for a smarter learning experience <span>✦</span></p>
+      </div>
+    </section>
+  </main><script src="js/login.js"></script>
+</body></html>
